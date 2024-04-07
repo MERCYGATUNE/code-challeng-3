@@ -1,8 +1,20 @@
-# Flatdango
+ # FLATDANGO
 
-Flatiron Movie Theater is open for business! You will be building out an
-application, Flatdango, that allows a user to purchase movie tickets from the
+ # DATE ,2024/4/07
+
+ Fl
+##  BY:MERCY ARIRI GATUNE
+  
+## DESCRIPTION
+Flatdango is an application that allows a user to purchase movie tickets from the
 theater.
+ ## LIVE SITE
+  https://github.com/MERCYGATUNE/code-challeng-3.git
+
+## TECHNOLOGY USED
+1. HTML
+1. CSS
+1. JAVASCRIPT
 
 ## Demo
 
@@ -10,7 +22,7 @@ Use this gif as an example of how the app should work.
 
 ![Flatdango App Demo](https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-flatdango/flatdango-demo.gif)
 
-> To view in VSCode, right click on the README.md file and select "Open Preview".
+> To view in VSCode, right click on the README.md file and select "Open Preview"
 
 ## Setup
 
@@ -165,16 +177,12 @@ As a user, I can:
    <li class="sold-out film item">(Title of a sold-out film)</li>
    <li class="film item">(Title of film)</div>
    ```
+  ## LICENSE
+  MIT LICENSE
+  Copy Right (c)2024
 
-### Bonus Deliverables
 
-These bonus deliverables are here if you want an extra challenge and won't
-affect your score. **Make sure to commit your work to save your progress before
-attempting the bonus deliverables!**
 
-1. Click on a movie in the menu to replace the currently displayed movie's
-   details with the new movie's details. Note that you may have to make an
-   additional GET request to access the movie's details.
 
 
 
