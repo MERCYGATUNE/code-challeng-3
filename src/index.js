@@ -35,7 +35,7 @@ fetch(apiURL,{
        .then(response => {
         if(response.ok){
             //  UPON PRESSING DELETE BUTTON ,RELOAD TO UPDATE NEW 
-            location.reload()
+            alert ('MOVIE DELETED')
         }
         else{
             alert('ERROR DELETING')
@@ -78,26 +78,31 @@ function showTitleInfo(title){
 // ADDED AN EVENTLISTENER
 
  document.querySelector('#buy-ticket').addEventListener('click',() =>{
-    let allAvailableTickets = document.querySelector('#ticket-num')
-    let availableTickets = parseInt(allAvailableTickets.textContent)
+    let allAvailableTickets = document.querySelector('#ticket-num');
+    let availableTickets = parseInt(allAvailableTickets.textContent);
 
     //   
         if(!isNaN(availableTickets) && availableTickets > 0){
-            availableTickets--
+            availableTickets--;
             allAvailableTickets.innerText = availableTickets;
 
-            
+            document.querySelector('#buy-ticket').innerText  ='Buy Tickets'
             
         }
       if(availableTickets===0){
+        alert("SOLD OUT");
+         document.querySelector('#buy-ticket').innerText= 'Sold Out';
       
-        document.querySelector('#buy-ticket').innerText= 'Sold Out'
-      } else if (availableTickets >= 0)
-          document.querySelector('#buy-ticket').innerText= 'Buy Ticket'
-
+       
         
+      
+          }
+      });
 
-      })
+
+      
+
+      
       
       
   
